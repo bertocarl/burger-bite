@@ -1,0 +1,28 @@
+body  {
+background-image: url("images/sign_bg.jpg");
+
+
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+::placeholder {
+  color: red;
+  opacity: 1;
+}

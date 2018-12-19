@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Burger Bite Feedback</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="images/ico" href="images/bb.ico" />
+  <!-- <link rel="stylesheet" href="css/custom.css" /> -->
+  </head>
+  <body>
+    <h2><center>Feedback Form</center></h2>
+    <div class="container">
+      <div class="jumbotron">
+          <p><i>Your review is confidential it will not be seen by a third party</i></p><br>
+      <form name="myCredentials" method="post";">
+        <input type="text" id="input-name" placeholder="Your names" required><br>
+        <input type="text" id="input-email" placeholder="Enter your email" required><br>
+        <textarea name="message" type="text" id="input-message" placeholder="Share details of your experience with us.." style="height:200px" required></textarea><br>
+        <p><input type="submit" value="post" id="input-submit" onClick="submitClick()"></p>
+      </form>
+    </div>
+  </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>

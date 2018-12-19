@@ -1,0 +1,40 @@
+.container{
+	width: 100%;
+	min-height: 100vh;
+}
+.input-box{
+	width:100%;
+
+}
+.login-form{
+	width:500px;
+	border-radius: 8px;
+	background-color: #D7DBDD;
+	display: block;
+}
+.login-title{
+	width:auto;
+	display: block;
+	font-size: 30px;
+	color: #333333;
+	text-align: center;
+}
+.login-button-class{
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	border-radius: 8px;
+	background: #6675df;
+}
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+.sign-up{
+	text-align: center;
+}

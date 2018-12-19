@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/login-styles.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="images/ico" href="images/bb.ico" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="input-box">
+
+      <form class="login-form">
+        <span class="login-title">
+          <p>Login to continue</p>
+        </span>
+        <div class="form-group" data-validate="valid email is required: abc@def.xyz">
+          <input id="email-id" class="form-control" type="email" name="email" placeholder="email">
+        </div>
+        <div class="form-group" data-validate="password is required">
+          <input id="password-id" class="form-control" type="password" name="password" placeholder="password">
+        </div>
+        <div class="forgot-class">
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <div class="login-button">
+          <button class="login-button-class">login</button><br><br><br>
+        </div>
+
+        <div class="sign-up">
+          <a href="sign_up.html">Sign Up</a>
+        </div>
+      </form>
+
+    </div>
+
+    <div class="login-image" style="background-image:url('../images/burger.jpg');"></div>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
