@@ -9,7 +9,7 @@ _This is a site that will allow customers to customize their burgers, order and 
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
 | Customer clicks the sign in and is redirected to a login page, Details are filled in login form and are stored by data structures | Customer starts burger customization | On finishing the customer is redirected to checkout page for payments |
-| Customer makes payments according to order | Payments are verified and a verification email is sent to the customer for delivery of food order | 
+| Customer makes payments according to order | Payments are verified and a verification email is sent to the customer for delivery of food order |
 
 ## Setup/Installation Requirements
 
@@ -32,4 +32,4 @@ _This is a site that will allow customers to customize their burgers, order and 
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2018
+_Copyright (c) 2018_
