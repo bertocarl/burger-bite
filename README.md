@@ -2,10 +2,15 @@
 A website that allows customers to order ready made or customize their own burgers.
 
 ## Author names
+
 Albert Carlos
+
 Wairimu Maina
+
 Joseck Ogachi
+
 Mudavadi Evans
+
 Kevin Kironji
 
 ## Project description
@@ -28,7 +33,7 @@ Target Audience-Everyone.
 
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| Click sign in then input your details in the log in form as requested.  | Customer choses one option between order or customize a  burger. | Upon finishing the customer is redirected to checkout page for payments |
+| Click sign in then input your details in the log in form as requested.  | Customer chooses one option between order or customize a  burger. | Upon finishing the customer is redirected to checkout page for payments |
 
 ## Setup/Installation Requirements
 
