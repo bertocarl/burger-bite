@@ -3,6 +3,7 @@
 <head>
   <title>My Cart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/readystyle.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/readystyle.css">
   <link rel="icon" type="images/ico" href="images/bb.ico" />
@@ -14,10 +15,18 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 
-<body class="container">
+<body class="body">
+  <div class="container">
 
   <div class="page-header">
-    <h1>Ready Made Burgers
+    <h1>
+      <div class="signature">
+        <div class="shape">
+          <span class="flaticon flaticon-burger"></span>
+          <p>Ready Made Burgers</p>
+        </div>
+
+      </div>
       <div style="float: right; cursor: pointer;">
         <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
       </div>
@@ -26,13 +35,13 @@
 
   <div class="row">
     <div class="col-md-3 text-center">
-      <img src="images/9.jpg" width="150px" height="150px">
+      <img src="images/9.jpg" width="200px" height="200px">
       <br>
       Beef Burger - <strong>Ksh 250</strong>
       <br>
       <button class="btn btn-danger my-cart-btn" data-id="1" data-name="beef" data-summary="summary 1" data-price="250" data-quantity="1" data-image="images/9.jpg">Add to Cart</button>
       <button type="button" name="button" class="btn btn-warning" id="btnbeef">View more Details</button>
-      <div class="details"id="beef">
+      <div class="details" id="beef">
         <p>Ingredients</p>
         <ul>
           <li>Beef patty</li>
@@ -44,7 +53,7 @@
     </div>
 
     <div class="col-md-3 text-center">
-      <img src="images/Chicken.jpg" width="150px" height="150px">
+      <img src="images/Chicken.jpg" width="200px" height="200px">
       <br>
       Chicken Burger - <strong>Ksh 200</strong>
       <br>
@@ -62,13 +71,13 @@
     </div>
 
     <div class="col-md-3 text-center">
-      <img src="images/fish.jpg" width="150px" height="150px">
+      <img src="images/fish.jpg" width="200px" height="200px">
       <br>
       Fish Burger- <strong>Ksh 300</strong>
       <br>
       <button class="btn btn-danger my-cart-btn" data-id="3" data-name="fish" data-summary="summary 3" data-price="300" data-quantity="1" data-image="images/fish.jpg">Add to Cart</button>
       <button type="button" name="button" class="btn btn-warning" id="btnfish">View more Details</button>
-      <div class="details"id="fish">
+      <div class="details" id="fish">
         <p>Ingredients</p>
         <ul>
           <li>Fish patty coated with breadcrumbs</li>
@@ -80,7 +89,7 @@
     </div>
 
     <div class="col-md-3 text-center">
-      <img src="images/2pattybeef.jpg" width="150px" height="150px">
+      <img src="images/2pattybeef.jpg" width="200px" height="200px">
       <br>
       Two Patty Beef - <strong>Ksh 400</strong>
       <br>
@@ -89,13 +98,28 @@
       <div class="details" id="2patty">
         <p>Ingredients</p>
         <ul>
-          <li>Any 2 or more patties of your  choice</li>
+          <li>Any 2 or more patties of your choice</li>
           <li>Bun</li>
           <li>Cheese</li>
           <li>Vegetables</li>
         </ul>
       </div>
     </div>
+      </div>
+    <div class="row footer">
+
+    <div class="footer">
+      <ul >
+        <li><a id="link" href="index.html">Home</a></li>
+        <li><a id="link" href="custom.html">Build Burger</a></li>
+        <li><a id="link" href="feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+    </div>
+
+
+
+
   </div>
 
   <script src="js/jquery-2.2.3.min.js"></script>
