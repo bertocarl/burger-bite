@@ -1,35 +1,61 @@
-##_Burger-Bite_
-A website that allows customers to customize their own burgers.
+## Burger Bite
+A website that allows customers to order ready made or customize their own burgers.
 
-## Description
+## Author names
+Albert Carlos
+Wairimu Maina
+Joseck Ogachi
+Mudavadi Evans
+Kevin Kironji
 
-_This is a site that will allow customers to customize their burgers, order and make online payments while we do deliveries according to the customers preference._
-
-## Specs
-| Behavior        | Input           | Outcome  |
-| ------------- |:-------------:| -----:|
-| Customer clicks the sign in and is redirected to a login page, Details are filled in login form and are stored by data structures | Customer starts burger customization | On finishing the customer is redirected to checkout page for payments |
-| Customer makes payments according to order | Payments are verified and a verification email is sent to the customer for delivery of food order |
-
-## Setup/Installation Requirements
-
-* _Clone this repository_
-* _Open a HTML file_
-* _Open web browser of choice_
-
-## Notes
-
+## Project description
+This site will allow customers to order ready made burgers or even customize there on burgers online.It will also allow customers to choose there own payment method either online or cash on delivery and the burgers will be delivered according to the customers preference.
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _Bootstrap_
-* _JavaScript_
-* _jQuery_
+This web page was built using;
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
+
+Target Audience-Everyone.
+
+
+## Behavior driven development
+
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Click sign in then input your details in the log in form as requested.  | Customer choses one option between order or customize a  burger. | Upon finishing the customer is redirected to checkout page for payments |
+
+## Setup/Installation Requirements
+
+1.On GitHub, navigate to the main page of the repository.
+
+2.Under the repository name, click Clone or download.
+
+3.In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+
+4.Open Terminal.
+
+5.Change the current working directory to the location where you want the cloned directory to be made.
+
+6.Type git clone, and then paste the URL you copied in Step 2.
+
+7.Press Enter. Your local clone will be created.
+
+8.Open web browser of choice
 
 ### License
 
-*This software is licensed under the MIT license.*
+MIT licence
 
-_Copyright (c) 2018_
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2018
