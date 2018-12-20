@@ -1,20 +1,59 @@
 @import url(https://fonts.googleapis.com/css?family=Maitree:400,700);
 @import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
-
-body {
+.body{
+  color: #c72937;
+  background-color: #c72937;
+}
+.container {
     font-size: 16px;
     line-height: 18px;
     font-family: 'Maitree', serif;
     color: #fff;
-    background: #efe9dd;
+    background-color: #3b3a30;
+}
+
+.shape {
+    background: linear-gradient(#c72937, #c72937) repeat scroll 0 0;
+    height: 82px;
+    width: 295px;
+    position: relative;
+}
+.shape:after {
+    border-bottom:  40px solid #c72937;
+    border-top: 40.9px solid #c72937;
+    border-right: 20px solid transparent;
+    right: -20px;
+    top: 1px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+
+}
+.shape .flaticon:before {
+    display: block;
+    font-size: 50px;
+    height: 65px;
+    margin: 0;
+    padding-top: 34px;
+    text-align: center;
+    width: 50%;
+}
+.shape > p {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 30px 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
 .badge-notify{
-  background:red;
+  background-color: #c72937;
   position:relative;
   top: -20px;
   right: 10px;
+  color: #c72937;
+  background: #c72937;
 }
 .my-cart-icon-affix {
   position: fixed;
@@ -29,5 +68,30 @@ body {
 
 }
 img{
+  margin-bottom: 10px;
+}
+h1{
+  height: 100px;
+
+}
+.btn{
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.row{
+  margin-bottom: 5px;
+}
+.footer{
+  color: #c72937;
+}
+#link{
+  color: #fff;
+  padding: 5px;
+}
+ul{
+  list-style-type: none;
+  color: #c72937;
 
 }
