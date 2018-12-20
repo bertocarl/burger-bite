@@ -33,7 +33,7 @@ Target Audience-Everyone.
 
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| Click sign in then input your details in the log in form as requested.  | Customer chooses one option between order or customize a  burger. | Upon finishing the customer is redirected to checkout page for payments |
+| Click sign up then input your details in the sign up form as requested.  | Customer chooses one option between order or customize a  burger. | Upon finishing the customer is redirected to checkout page for payments |
 
 ## Setup/Installation Requirements
 
