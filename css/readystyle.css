@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Maitree:400,700);
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+body {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Maitree', serif;
+    color: #fff;
+    background: #efe9dd;
+}
+
+
+.badge-notify{
+  background:red;
+  position:relative;
+  top: -20px;
+  right: 10px;
+}
+.my-cart-icon-affix {
+  position: fixed;
+  z-index: 999;
+}
+.details{
+  display: none;
+}
+.row{
+  height: auto;
+  padding: 20px;
+
+}
+img{
+
+}

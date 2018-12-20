@@ -1,5 +1,6 @@
 body  {
 background-image: url("images/sign_bg.jpg");
+background-color: #f43438;
 
 
 }
@@ -25,4 +26,7 @@ input[type=submit] {
 ::placeholder {
   color: red;
   opacity: 1;
+}
+.form-gap {
+    padding-top: 70px;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="css/sign-up-styles.css" rel="stylesheet" type="text/css">
+   <title>Sign Up</title>
+ </head>
+ <body>
+<div class="container">
+   <form class="sign-up-form">
+     <span class="sign-up-title">
+       <p>Create an account</p>
+     </span>
+     <div class="form-group">
+       <input id="firstname-id" class="form-control" type="input" name="firstname" placeholder="First Name">
+     </div>
+     <div class="form-group">
+       <input id="lastname-id" class="form-control" type="input" name="second" placeholder="Second Name">
+     </div>
+     <div class="form-group">
+       <input id="phone-id" class="form-control" type="numbers" name="phone" placeholder="Phone">
+     </div>
+     <div class="form-group" data-validate="valid email is required: abc@def.xyz">
+       <input id="email-id" class="form-control" type="email" name="email" placeholder="Email">
+     </div>
+     <div class="form-group" data-validate="password is required">
+       <input id="password-id" class="form-control" type="password" name="password" placeholder="Password">
+     </div><br><br>      <div class="login-button">
+       <button class="login-button-class" onclick="store()">Sign Up</button><br><br><br>
+     </div>
+ </form>
+</div>
+ </body>
+</html>

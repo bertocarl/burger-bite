@@ -1,0 +1,27 @@
+.badge-notify{
+  background:red;
+  position:relative;
+  top: -20px;
+  right: 10px;
+}
+.my-cart-icon-affix {
+  position: fixed;
+  z-index: 999;
+}
+.details{
+  display: none;
+}
+.row{
+  height: auto;
+  padding: 20px;
+
+}
+img{
+
+}
+.ing{
+  display:inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}

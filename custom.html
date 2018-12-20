@@ -1,0 +1,207 @@
+<html>
+
+<head>
+  <title>Custom</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/customstyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body class="container">
+
+  <div class="page-header">
+    <h1>Make Your Burger
+    <div style="float: right; text-decoration: underline; font-weight: 600; cursor: pointer;">
+      <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+
+    </div>
+    </h1>
+
+  </div>
+
+  <div class="row" id="bun">
+
+    <h2>BUNS</h2>
+    <div class="col-md-3 text-center">
+      <img src="images/brownz.jpeg" width="150px" height="150px">
+      <br>
+      Brown Buns (Plain) <strong>Ksh 10</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="1" data-name="brown bun" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/brownz.jpeg">Add to Burger</button>
+
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/white2.jpeg" width="150px" height="150px">
+      <br>
+      White buns (plain)<strong>Ksh 10</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="2" data-name="white Bun(ses)" data-summary="summary 2" data-price="10" data-quantity="1" data-image="images/white2.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/white1.jpeg" width="150px" height="150px">
+      <br>
+      White Buns (Sesame Seeds) <strong>Ksh 20</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="3" data-name="White Bun" data-summary="summary 3" data-price="20" data-quantity="1" data-image="images/white1.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/seed2.jpeg" width="150px" height="150px">
+      <br>
+      Brown Buns (Sesame Seeds) <strong>Ksh 20</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="4" data-name="seed2" data-summary="summary 4" data-price="20" data-quantity="1" data-image="images/seed2.jpeg">Add to Burger</button>
+
+    </div>
+    <button class="btn btn-warning ing" type="button" name="button" id="btnbun">Next Ingredient</button>
+  </div><!-- End of buns row -->
+
+  <div class="row details" id="meat">
+    <h2>MEAT PATTY</h2>
+    <div class="col-md-3 text-center">
+      <img src="images/beef patty.jpeg" width="150px" height="150px">
+      <br>
+      Beef Patty - <strong>Ksh 100</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="5" data-name="beef patty" data-summary="summary 1" data-price="100" data-quantity="1" data-image="images/beef patty.jpeg">Add to Burger</button>
+
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/chicken patty.jpeg" width="150px" height="150px">
+      <br>
+      Chicken Patty - <strong>Ksh 150</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="6" data-name="chicken" data-summary="summary 2" data-price="150" data-quantity="1" data-image="images/chicken patty.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/pork patty.jpeg" width="150px" height="150px">
+      <br>
+      Pork Patty <strong>Ksh 150</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="7" data-name="pork" data-summary="summary 3" data-price="150" data-quantity="1" data-image="images/pork patty.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/fish pattyn.jpeg" width="150px" height="150px">
+      <br>
+      Fish Patty <strong>Ksh 150</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="8" data-name="fish" data-summary="summary 4" data-price="150" data-quantity="1" data-image="images/fish pattyn.jpeg">Add to Burger</button>
+
+    </div>
+    <button class="btn btn-warning ing" type="button" name="button" id="btnmeat">Next Ingredient</button>
+  </div><!-- End of meat patty row -->
+
+  <div class="row details" id="veg">
+    <h2>VEGETABLES</h2>
+    <div class="col-md-3 text-center">
+      <img src="images/lettuce.jpeg" width="150px" height="150px">
+      <br>
+      Lettuce <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="9" data-name="lettuce" data-summary="summary 1" data-price="50" data-quantity="1" data-image="images/lettuce.jpeg">Add to Burger</button>
+
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/cucumber.jpeg" width="150px" height="150px">
+      <br>
+      Cucumber <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="10" data-name="cucumber" data-summary="summary 2" data-price="50" data-quantity="1" data-image="images/cucumber.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/tomato.jpeg" width="150px" height="150px">
+      <br>
+      Tomatoes <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="11" data-name="tomatoes" data-summary="summary 3" data-price="50" data-quantity="1" data-image="images/tomato.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/onion.jpeg" width="150px" height="150px">
+      <br>
+      Caramelized Onions <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="12" data-name="onion" data-summary="summary 4" data-price="50" data-quantity="1" data-image="images/onion.jpeg">Add to Burger</button>
+
+    </div>
+    <button class="btn btn-warning ing" type="button" name="button" id="btnveg">Next Ingredient</button>
+  </div><!-- End of veggies -->
+
+  <div class="row details" id="cheese">
+
+    <h2>CHEESE</h2>
+    <div class="col-md-6 text-center">
+      <img src="images/mozarella.jpeg" width="150px" height="150px">
+      <br>
+      Mozarella<strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="13" data-name="mozarella" data-summary="summary 1" data-price="50" data-quantity="1" data-image="images/9.jpeg">Add to Burger</button>
+
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="images/cheddar.jpeg" width="150px" height="150px">
+      <br>
+      Cheddar <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="14" data-name="cheddar" data-summary="summary 2" data-price="50" data-quantity="1" data-image="images/cheddar.jpeg">Add to Burger</button>
+    </div>
+    <button class="btn btn-warning ing" type="button" name="button" id="btncheese">Next Ingredient</button>
+  </div><!-- end of cheese -->
+
+  <div class="row details" id="sauce">
+
+    <h2>SAUCES</h2>
+    <div class="col-md-3 text-center">
+      <img src="images/mustard sauce.jpeg" width="150px" height="150px">
+      <br>
+      Mustard <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="15" data-name="mustard" data-summary="summary 1" data-price="50" data-quantity="1" data-image="images/mustard sauce.jpeg">Add to Burger</button>
+
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/bbq sauce.jpeg" width="150px" height="150px">
+      <br>
+      BarbeQue <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="16" data-name="bbq sauce" data-summary="summary 2" data-price="50" data-quantity="1" data-image="images/bbq sauce.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/mayonnaise.jpeg" width="150px" height="150px">
+      <br>
+      Mayonnaise <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="17" data-name="mayonnaise" data-summary="summary 3" data-price="50" data-quantity="1" data-image="images/mayonnaise.jpeg">Add to Burger</button>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <img src="images/ketchup.jpeg" width="150px" height="150px">
+      <br>
+      Ketchup <strong>Ksh 50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="18" data-name="ketchup" data-summary="summary 4" data-price="50" data-quantity="1" data-image="images/ketchup.jpeg">Add to Burger</button>
+    </div>
+    <input class="btn btn-warning ing" type="reset" value="RESELECT INGREDIENTS" onclick='location.reload();'>
+  </div><!-- Sauces -->
+
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script type='text/javascript' src="js/bootstrap.min.js"></script>
+  <script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript" src="js/customscript.js"> </script>
+</body>
+
+</html>

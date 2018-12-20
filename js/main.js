@@ -22,6 +22,10 @@ jQuery(document).ready(function ($) {
         $("html, body").animate({scrollTop: 0}, 1000);
         return false;
     });
+    function submitClick( )
+    {
+      alert("Thank you! Your email has been recieved!, We shall communicate back to you.");
+    }
 
 
 
